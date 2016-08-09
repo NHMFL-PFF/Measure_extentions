@@ -43,16 +43,15 @@
 					<Item Name="DAQmx Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/DAQmx Digitizer.lvclass"/>
 					<Item Name="Test DAQmx Digitizer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Test DAQmx Digitizer.vi"/>
 				</Item>
-				<Item Name="DAQmx Recorder.lvclass" Type="LVClass" URL="../Pulse Recorders/DAQmx Recorder/DAQmx Recorder.lvclass"/>
 			</Item>
 			<Item Name="NI-Scope Recorder" Type="Folder">
 				<Item Name="NI-Scope Driver" Type="Folder">
 					<Item Name="NI-Scope Digitizer Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/NI-Scope Digitizer/NI-Scope Digitizer Configuration.ctl"/>
 					<Item Name="Ni-Scope Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/NI-DAQ/NI-Scope Digitizer/Ni-Scope Digitizer.lvclass"/>
 				</Item>
-				<Item Name="NI-Scope Recorder.lvclass" Type="LVClass" URL="../Pulse Recorders/NI-Scope Recorder/NI-Scope Recorder.lvclass"/>
 			</Item>
 			<Item Name="Pulse Driver" Type="Folder">
+				<Item Name="0817_001.pdf" Type="Document" URL="/C/Users/121767/Dropbox/0817_001.pdf"/>
 				<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
 				<Item Name="Pusle Driver Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pusle Driver Configuration.ctl"/>
 			</Item>
@@ -61,6 +60,8 @@
 			<Item Name="Red Pitaya Digitizer.lvclass" Type="LVClass" URL="../Pulse Recorders/Red Pitaya Digitizer/Red Pitaya Digitizer.lvclass"/>
 		</Item>
 		<Item Name="Launch Monitor-Pulse.vi" Type="VI" URL="../Launch Monitor-Pulse.vi"/>
+		<Item Name="Number list to array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Number list to array.vi"/>
+		<Item Name="Skip white spaces.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
 		<Item Name="Trigger Pulse.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Trigger Pulse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -434,6 +435,7 @@
 			<Item Name="Broadcast Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Broadcast Response Msg/Broadcast Response Msg.lvclass"/>
 			<Item Name="CheckFileExist.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/CheckFileExist.vi"/>
 			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Create folder if not exist.vi"/>
+			<Item Name="DAQmx Recorder.lvclass" Type="LVClass" URL="../Pulse Recorders/DAQmx Recorder/DAQmx Recorder.lvclass"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Gage digitizer actor.lvclass" Type="LVClass" URL="../../PulseEcho/PulsedFieldEcho/Pulse Echo Actor Project/Gage digitizer actor/Gage digitizer actor.lvclass"/>
