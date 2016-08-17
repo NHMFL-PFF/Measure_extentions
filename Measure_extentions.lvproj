@@ -45,6 +45,9 @@
 					<Item Name="Test DAQmx Digitizer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Test DAQmx Digitizer.vi"/>
 				</Item>
 			</Item>
+			<Item Name="Magnet Strain" Type="Folder">
+				<Item Name="Strain Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Strain Digitizer/Strain Digitizer.lvclass"/>
+			</Item>
 			<Item Name="NI-Scope Recorder" Type="Folder">
 				<Item Name="NI-Scope Driver" Type="Folder">
 					<Item Name="NI-Scope Digitizer Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/NI-Scope Digitizer/NI-Scope Digitizer Configuration.ctl"/>
@@ -483,6 +486,7 @@
 			<Item Name="Measure DC offset.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/Measure DC offset.vi"/>
 			<Item Name="Menu object array.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Menu object array.ctl"/>
 			<Item Name="Menu object.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Menu object.ctl"/>
+			<Item Name="Micron Optics sm130.lvlib" Type="Library" URL="../../NHMFL_Core/Libraries/Strain/Micron Optics sm130/Micron Optics sm130.lvlib"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/Mode.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
