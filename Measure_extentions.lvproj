@@ -29,6 +29,8 @@
 		<Item Name="Monitor-Pulse" Type="Folder">
 			<Item Name="Messages" Type="Folder">
 				<Item Name="Set Post Processors Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Set Post Processors Msg/Set Post Processors Msg.lvclass"/>
+				<Item Name="Write Peak Field Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Write Peak Field Msg/Write Peak Field Msg.lvclass"/>
+				<Item Name="Write Pulse File Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Write Pulse File Msg/Write Pulse File Msg.lvclass"/>
 			</Item>
 			<Item Name="Monitor-Pulse.lvclass" Type="LVClass" URL="../Monitor-Pulse/Monitor-Pulse.lvclass"/>
 		</Item>
@@ -376,11 +378,9 @@
 				<Item Name="getNamesFromPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/getNamesFromPath.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
-				<Item Name="initFileContentsTree.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initFileContentsTree.vi"/>
 				<Item Name="InitFromConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitFromConfiguration.vi"/>
 				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
 				<Item Name="InitScrollbarAndListBox.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitScrollbarAndListBox.vi"/>
-				<Item Name="initTabValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initTabValues.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="loadAndFormatValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/loadAndFormatValues.vi"/>
 				<Item Name="LoadBufferForMultiListBoxAndFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LoadBufferForMultiListBoxAndFormat.vi"/>
@@ -474,11 +474,14 @@
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get TDMS channel info.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Get TDMS channel info.vi"/>
 			<Item Name="Init Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Init Response Msg/Init Response Msg.lvclass"/>
+			<Item Name="initFileContentsTree.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initFileContentsTree.vi"/>
 			<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Initialize Msg/Initialize Msg.lvclass"/>
+			<Item Name="initTabValues.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initTabValues.vi"/>
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
 			<Item Name="Integrator Configoration.ctl" Type="VI" URL="../Post-Processors/Integrate/Integrator Configoration.ctl"/>
+			<Item Name="Is Control Present.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/MakePath.vi"/>
@@ -522,7 +525,6 @@
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
 			<Item Name="Start Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Start Measurements Msg/Start Measurements Msg.lvclass"/>
 			<Item Name="Start Pulse Measurements Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Start Pulse Measurements Msg/Start Pulse Measurements Msg.lvclass"/>
-			<Item Name="StartFastChannelStreaming.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Streamer/StartFastChannelStreaming.vi"/>
 			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/TDMS channel info.ctl"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS delete channel.vi"/>
