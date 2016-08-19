@@ -22,6 +22,7 @@
 			<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
 			<Item Name="Measure Controller.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller/Measure Controller.lvclass"/>
 			<Item Name="Measure Object.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object/Measure Object.lvclass"/>
+			<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
 			<Item Name="Pulse Controller.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Controller/Pulse Controller.lvclass"/>
 			<Item Name="Pulse Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder/Pulse Recorder.lvclass"/>
 			<Item Name="Waveform Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Waveform Plot/Waveform Plot.lvclass"/>
@@ -491,6 +492,7 @@
 			<Item Name="Menu object.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Menu object.ctl"/>
 			<Item Name="Micron Optics sm130.lvlib" Type="Library" URL="../../NHMFL_Core/Libraries/Strain/Micron Optics sm130/Micron Optics sm130.lvlib"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/Mode.ctl"/>
+			<Item Name="Monitor Controller Configuration.ctl" Type="VI" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller Configuration.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -530,7 +532,7 @@
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS delete channel.vi"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/TryAgain.vi"/>
 			<Item Name="Update Armed Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Update Armed Msg/Update Armed Msg.lvclass"/>
-			<Item Name="Wait for Data Msg.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Controller Messages/Wait for Trigger Msg/Wait for Data Msg.lvclass"/>
+			<Item Name="Wait for Data Msg.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder Messages/Wait for Data Msg/Wait for Data Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Write menu object array values.vi"/>
 			<Item Name="Write tdms stream Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Write tdms stream Msg/Write tdms stream Msg.lvclass"/>
 		</Item>
