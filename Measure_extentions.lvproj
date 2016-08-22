@@ -75,6 +75,7 @@
 				<Item Name="Red Pitaya Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Red Pitaya/Red Pitaya Digitizer/Red Pitaya Digitizer.lvclass"/>
 			</Item>
 		</Item>
+		<Item Name="Recorders" Type="Folder"/>
 		<Item Name="Launch Monitor-Pulse.vi" Type="VI" URL="../Launch Monitor-Pulse.vi"/>
 		<Item Name="Plot types.ctl" Type="VI" URL="../../Measure_core/Plots/Plot types.ctl"/>
 		<Item Name="Stop Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Stop Measurements Msg/Stop Measurements Msg.lvclass"/>
@@ -518,6 +519,8 @@
 			<Item Name="initFileContentsTree_NHMFL.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initFileContentsTree_NHMFL.vi"/>
 			<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Initialize Msg/Initialize Msg.lvclass"/>
 			<Item Name="initTabValues_NHMFL.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initTabValues_NHMFL.vi"/>
+			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
+			<Item Name="Instrument Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Recorders/Instrument Recorder/Instrument Recorder.lvclass"/>
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
