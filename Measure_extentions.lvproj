@@ -25,8 +25,6 @@
 			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/Acquired Result/Acquired Result.lvclass"/>
 			<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
 			<Item Name="File Path Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/File Path Result/File Path Result.lvclass"/>
-			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
-			<Item Name="Instrument Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Recorders/Instrument Recorder/Instrument Recorder.lvclass"/>
 			<Item Name="Measure Controller.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller/Measure Controller.lvclass"/>
 			<Item Name="Measure Object.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object/Measure Object.lvclass"/>
 			<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
@@ -52,12 +50,7 @@
 			</Item>
 		</Item>
 		<Item Name="Recorders" Type="Folder">
-			<Item Name="Drivers" Type="Folder">
-				<Item Name="Cryo-Con Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Driver/Cryo-Con Driver.lvclass"/>
-				<Item Name="LR-700 Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR-700 Driver/LR-700 Driver.lvclass"/>
-				<Item Name="Temperature Controller Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/Temperature Controller Driver.lvclass"/>
-				<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
-			</Item>
+			<Item Name="Drivers" Type="Folder"/>
 			<Item Name="Pulse Recorders" Type="Folder">
 				<Item Name="DAQmx Recorder" Type="Folder">
 					<Item Name="DAQmx Driver" Type="Folder">
@@ -517,6 +510,7 @@
 			<Item Name="Configure serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Configure serial bus.vi"/>
 			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Create folder if not exist.vi"/>
 			<Item Name="Create plots - ring selector.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Create plots - ring selector.vi"/>
+			<Item Name="Cryo-Con Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Driver/Cryo-Con Driver.lvclass"/>
 			<Item Name="Cryo-Con Get T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Cryo-Con Get T.vi"/>
 			<Item Name="Data reduction.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/Data reduction.ctl"/>
 			<Item Name="Device type.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Device type.ctl"/>
@@ -544,6 +538,8 @@
 			<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Initialize Msg/Initialize Msg.lvclass"/>
 			<Item Name="initTabValues.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initTabValues.vi"/>
 			<Item Name="initTabValues_NHMFL.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/initTabValues_NHMFL.vi"/>
+			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
+			<Item Name="Instrument Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Recorders/Instrument Recorder/Instrument Recorder.lvclass"/>
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
@@ -551,6 +547,7 @@
 			<Item Name="is AH bridge.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/AH/is AH bridge.vi"/>
 			<Item Name="Is Control Present.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR 700 convert responce.vi"/>
+			<Item Name="LR-700 Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR-700 Driver/LR-700 Driver.lvclass"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Make Waveform Time Array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Make Waveform Time Array.vi"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/MakeDataFileNames.vi"/>
@@ -620,9 +617,11 @@
 			<Item Name="T controller configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/T controller configuration.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/TDMS channel info.ctl"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS delete channel.vi"/>
+			<Item Name="Temperature Controller Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/Temperature Controller Driver.lvclass"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/TryAgain.vi"/>
 			<Item Name="Update Armed Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Update Armed Msg/Update Armed Msg.lvclass"/>
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
+			<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
 			<Item Name="Wait for Data Msg.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder Messages/Wait for Data Msg/Wait for Data Msg.lvclass"/>
 			<Item Name="Wait miliseconds.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Wait miliseconds.vi"/>
 			<Item Name="Write Dynamic.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/Write Dynamic.vi"/>
