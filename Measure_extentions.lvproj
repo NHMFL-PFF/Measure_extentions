@@ -17,8 +17,10 @@
 				<Item Name="Result Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Result Response Msg/Result Response Msg.lvclass"/>
 				<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
 				<Item Name="Stop Acquire Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Stop Acquire Msg/Stop Acquire Msg.lvclass"/>
+				<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 				<Item Name="Time to subscribe Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Time to subscribe Msg/Time to subscribe Msg.lvclass"/>
 				<Item Name="Time-Delayed Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Time-Delayed Response Msg/Time-Delayed Response Msg.lvclass"/>
+				<Item Name="Unubscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Unubscribe Request Msg/Unubscribe Request Msg.lvclass"/>
 				<Item Name="Write Period Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Write Period Msg/Write Period Msg.lvclass"/>
 			</Item>
 			<Item Name="Test" Type="Folder"/>
@@ -615,7 +617,6 @@
 			<Item Name="Start Measurements Command Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Start Pulse Measurements Msg/Start Measurements Command Msg.lvclass"/>
 			<Item Name="Start Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Start Measurements Msg/Start Measurements Msg.lvclass"/>
 			<Item Name="Stop Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Stop Measurements Msg/Stop Measurements Msg.lvclass"/>
-			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 			<Item Name="T controller configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/T controller configuration.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/TDMS channel info.ctl"/>
 			<Item Name="TDMS delete channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS delete channel.vi"/>
