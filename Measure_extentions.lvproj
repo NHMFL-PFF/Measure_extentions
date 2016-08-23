@@ -13,6 +13,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Dependencies" Type="Folder">
 			<Item Name="Messages" Type="Folder">
+				<Item Name="Plot Closed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Plot Closed Msg/Plot Closed Msg.lvclass"/>
 				<Item Name="Result Reply Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Result Reply Msg/Result Reply Msg.lvclass"/>
 				<Item Name="Result Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Result Response Msg/Result Response Msg.lvclass"/>
 				<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
@@ -21,6 +22,7 @@
 				<Item Name="Time to subscribe Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Time to subscribe Msg/Time to subscribe Msg.lvclass"/>
 				<Item Name="Time-Delayed Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Time-Delayed Response Msg/Time-Delayed Response Msg.lvclass"/>
 				<Item Name="Unubscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Unubscribe Request Msg/Unubscribe Request Msg.lvclass"/>
+				<Item Name="Update Plots Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Update Plots Msg/Update Plots Msg.lvclass"/>
 				<Item Name="Write Period Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Write Period Msg/Write Period Msg.lvclass"/>
 			</Item>
 			<Item Name="Test" Type="Folder"/>
@@ -525,6 +527,7 @@
 			<Item Name="Device type.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Device type.ctl"/>
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/Controls/File formats.ctl"/>
+			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot Messages/File updated Msg/File updated Msg.lvclass"/>
 			<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/File/File_Group_Chan_Abbr.ctl"/>
 			<Item Name="Filter Device List.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Device/Filter Device List.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Generate mounth year strings.vi"/>
@@ -609,7 +612,6 @@
 			<Item Name="Save defaults Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot Messages/Save defaults Msg/Save defaults Msg.lvclass"/>
 			<Item Name="Save keep old plots Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot Messages/Save keep old plots Msg/Save keep old plots Msg.lvclass"/>
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/Select multiplexer LR700.vi"/>
-			<Item Name="Send Graph Closed.vi" Type="VI" URL="../../Measure/Libraries/Mag Lab Measure/Mag Lab Measure Base Messages/Graph Closed Msg/Send Graph Closed.vi"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Send Receive.vi"/>
 			<Item Name="Send Write Default channels.vi" Type="VI" URL="../../Measure/Libraries/Mag Lab Measure/Common Measurements Messages/Write Default channels Msg/Send Write Default channels.vi"/>
 			<Item Name="Set Point Aproach.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller/Controls/Set Point Aproach.ctl"/>
