@@ -44,6 +44,7 @@
 			<Item Name="Timer.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer/Timer.lvclass"/>
 			<Item Name="Waveform Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Waveform Plot/Waveform Plot.lvclass"/>
 			<Item Name="XY Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot/XY Plot.lvclass"/>
+			<Item Name="XY WFRM Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY WFRM Plot/XY WFRM Plot.lvclass"/>
 		</Item>
 		<Item Name="Monitor-Pulse" Type="Folder">
 			<Item Name="Messages" Type="Folder">
