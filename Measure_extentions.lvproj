@@ -21,12 +21,15 @@
 				<Item Name="Save Configuration Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Save Configuration Msg/Save Configuration Msg.lvclass"/>
 				<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
 				<Item Name="Set Frequency Msg.lvclass" Type="LVClass" URL="../Recorders/Lock-in Messages/Set Frequency Msg/Set Frequency Msg.lvclass"/>
+				<Item Name="Set Plot Type Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY WFRM Plot Messages/Set Plot Type Msg/Set Plot Type Msg.lvclass"/>
 				<Item Name="Stop Acquire Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Stop Acquire Msg/Stop Acquire Msg.lvclass"/>
 				<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 				<Item Name="Time to subscribe Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Time to subscribe Msg/Time to subscribe Msg.lvclass"/>
 				<Item Name="Time-Delayed Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Time-Delayed Response Msg/Time-Delayed Response Msg.lvclass"/>
 				<Item Name="Unubscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Object Messages/Unubscribe Request Msg/Unubscribe Request Msg.lvclass"/>
 				<Item Name="Update Plots Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measure Controller Messages/Update Plots Msg/Update Plots Msg.lvclass"/>
+				<Item Name="Write File history depth Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot Messages/Write Keep # of preceding files Msg/Write File history depth Msg.lvclass"/>
+				<Item Name="Write Files Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot Messages/Write Files Msg/Write Files Msg.lvclass"/>
 				<Item Name="Write Period Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Write Period Msg/Write Period Msg.lvclass"/>
 			</Item>
 			<Item Name="Test" Type="Folder"/>
@@ -56,14 +59,23 @@
 				<Item Name="Write Pulse File Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Write Pulse File Msg/Write Pulse File Msg.lvclass"/>
 			</Item>
 			<Item Name="Monitor-Pulse.lvclass" Type="LVClass" URL="../Monitor-Pulse/Monitor-Pulse.lvclass"/>
+			<Item Name="Save Start-up Configuration.vi" Type="VI" URL="../Monitor-Pulse/Save Start-up Configuration.vi"/>
+			<Item Name="Start-up Configuration.ctl" Type="VI" URL="../Monitor-Pulse/Start-up Configuration.ctl"/>
 		</Item>
 		<Item Name="Post-Processors" Type="Folder">
 			<Item Name="Integrate" Type="Folder">
 				<Item Name="Integrate.lvclass" Type="LVClass" URL="../Post-Processors/Integrate/Integrate.lvclass"/>
+				<Item Name="Integrator Configoration.ctl" Type="VI" URL="../Post-Processors/Integrate/Integrator Configoration.ctl"/>
 			</Item>
+			<Item Name="Process Object.lvclass" Type="LVClass" URL="../../Measure_core/Process Object/Process Object.lvclass"/>
 		</Item>
 		<Item Name="Recorders" Type="Folder">
 			<Item Name="Drivers" Type="Folder">
+				<Item Name="DAQmx Driver" Type="Folder">
+					<Item Name="DAQmx Digitizer Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/DAQmx Digitizer Configuration.ctl"/>
+					<Item Name="DAQmx Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/DAQmx Digitizer.lvclass"/>
+					<Item Name="Test DAQmx Digitizer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Test DAQmx Digitizer.vi"/>
+				</Item>
 				<Item Name="Pulse Driver" Type="Folder">
 					<Item Name="0817_001.pdf" Type="Document" URL="../../../Users/121767/Dropbox/0817_001.pdf"/>
 					<Item Name="Pulse Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Pulse Driver/Pulse Driver.lvclass"/>
@@ -84,13 +96,6 @@
 				<Item Name="Temperature Controller.lvclass" Type="LVClass" URL="../Recorders/Temperature Controller/Temperature Controller.lvclass"/>
 			</Item>
 			<Item Name="Pulse Recorders" Type="Folder">
-				<Item Name="DAQmx Recorder" Type="Folder">
-					<Item Name="DAQmx Driver" Type="Folder">
-						<Item Name="DAQmx Digitizer Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/DAQmx Digitizer Configuration.ctl"/>
-						<Item Name="DAQmx Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/DAQmx Digitizer.lvclass"/>
-						<Item Name="Test DAQmx Digitizer.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Test DAQmx Digitizer.vi"/>
-					</Item>
-				</Item>
 				<Item Name="Magnet Strain" Type="Folder">
 					<Item Name="Strain Digitizer.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Strain Digitizer/Strain Digitizer.lvclass"/>
 				</Item>
@@ -104,8 +109,10 @@
 			</Item>
 			<Item Name="Find Visa Recorders.vi" Type="VI" URL="../Recorders/Find Visa Recorders.vi"/>
 		</Item>
+		<Item Name="Clear Errors from Array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Clear Errors from Array.vi"/>
 		<Item Name="Launch Monitor-Pulse.vi" Type="VI" URL="../Launch Monitor-Pulse.vi"/>
-		<Item Name="Set Plot Type Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY WFRM Plot Messages/Set Plot Type Msg/Set Plot Type Msg.lvclass"/>
+		<Item Name="Module Types.ctl" Type="VI" URL="../Monitor-Pulse/Module Types.ctl"/>
+		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 		<Item Name="Test Dynamic Data.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/TDMS File Viewer/Test Dynamic Data.vi"/>
 		<Item Name="Trigger Pulse.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Trigger Pulse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -513,7 +520,6 @@
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
-				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 				<Item Name="TDMS Create Scaling Information (Linear).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Linear).vi"/>
 				<Item Name="TDMS Create Scaling Information (Polynomial).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Polynomial).vi"/>
 				<Item Name="TDMS Create Scaling Information (Reciprocal).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS Create Scaling Information (Reciprocal).vi"/>
@@ -620,9 +626,9 @@
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
-			<Item Name="Integrator Configoration.ctl" Type="VI" URL="../Post-Processors/Integrate/Integrator Configoration.ctl"/>
 			<Item Name="is AH bridge.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/AH/is AH bridge.vi"/>
 			<Item Name="Is Control Present.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
+			<Item Name="Is Valid File.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Is Valid File.vi"/>
 			<Item Name="Lock-in Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Lock-in Driver/Lock-in Configuration.ctl"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR 700 convert responce.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
