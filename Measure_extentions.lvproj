@@ -29,7 +29,7 @@
 			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/Acquired Result/Acquired Result.lvclass"/>
 			<Item Name="Application Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller/Application Controller.lvclass"/>
 			<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
-			<Item Name="da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
+			<Item Name="Da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
 			<Item Name="File Path Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/File Path Result/File Path Result.lvclass"/>
 			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
 			<Item Name="Instrument Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Recorders/Instrument Recorder/Instrument Recorder.lvclass"/>
@@ -717,7 +717,6 @@
 			<Item Name="Module Types.ctl" Type="VI" URL="../Monitor-Pulse/Module Types.ctl"/>
 			<Item Name="Monitor Controller Configuration.ctl" Type="VI" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller Configuration.ctl"/>
 			<Item Name="Neocera21 Get T.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Neocera/Neocera21 Get T.vi"/>
-			<Item Name="New Pulse Acquired Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/New Pulse Acquired Msg/New Pulse Acquired Msg.lvclass"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -742,6 +741,7 @@
 			<Item Name="Plot types.ctl" Type="VI" URL="../../Measure_core/Plots/Plot types.ctl"/>
 			<Item Name="Populate and conf ethernet bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Populate and conf ethernet bus.vi"/>
 			<Item Name="Populate Recorder List.vi" Type="VI" URL="../Recorders/Populate Recorder List.vi"/>
+			<Item Name="Pulse Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller Messages/Pulse Acquired Result/Pulse Acquired Result.lvclass"/>
 			<Item Name="Pulse Controller Configuration.ctl" Type="VI" URL="../../Measure_core/Controllers/Pulse Controller/Pulse Controller Configuration.ctl"/>
 			<Item Name="Pupulate and conf serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Pupulate and conf serial bus.vi"/>
 			<Item Name="Queued Listbox.xctl" Type="XControl" URL="../../NHMFL_Core/Libraries/Queued Listbox/Queued Listbox.xctl"/>
