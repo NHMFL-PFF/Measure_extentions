@@ -12,8 +12,39 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Dependencies" Type="Folder">
+			<Item Name="Actors" Type="Folder">
+				<Item Name="Application Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller/Application Controller.lvclass"/>
+				<Item Name="Da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
+				<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
+				<Item Name="Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot/Plot.lvclass"/>
+				<Item Name="Process Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller/Process Controller.lvclass"/>
+				<Item Name="Pulse Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Pulse Controller/Pulse Controller.lvclass"/>
+				<Item Name="Pulse Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder/Pulse Recorder.lvclass"/>
+				<Item Name="Sequence Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Sequence Controller/Sequence Controller.lvclass"/>
+				<Item Name="Sequence Element.lvclass" Type="LVClass" URL="../../Measure_core/Sequence Elements/Sequence Element/Sequence Element.lvclass"/>
+				<Item Name="Temperature Controller Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/Temperature Controller Driver.lvclass"/>
+				<Item Name="Timer.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer/Timer.lvclass"/>
+				<Item Name="XY Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot/XY Plot.lvclass"/>
+				<Item Name="XY WFRM Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY WFRM Plot/XY WFRM Plot.lvclass"/>
+			</Item>
+			<Item Name="Low-level" Type="Folder">
+				<Item Name="Utilities" Type="Folder">
+					<Item Name="Drag to Tree Check.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/GUI/Drag to Tree Check.vi"/>
+				</Item>
+				<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/Acquired Result/Acquired Result.lvclass"/>
+				<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
+				<Item Name="File Path Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/File Path Result/File Path Result.lvclass"/>
+				<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
+				<Item Name="Simple VISA Reader Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Simple VISA Reader/Simple VISA Reader Driver.lvclass"/>
+				<Item Name="Software Lock-in.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Software Lock-in/Software Lock-in.lvclass"/>
+				<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
+			</Item>
 			<Item Name="Messages" Type="Folder">
+				<Item Name="Attach to Sub-pannel Msg.lvclass" Type="LVClass" URL="../../Measure_core/da Base Messages/Attach to Sub-pannel Msg/Attach to Sub-pannel Msg.lvclass"/>
 				<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot Messages/File updated Msg/File updated Msg.lvclass"/>
+				<Item Name="Insert Item Msg.lvclass" Type="LVClass" URL="../../Measure_core/Interactive Tree Messages/Insert Item Msg/Insert Item Msg.lvclass"/>
+				<Item Name="Launch Object by Type Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/da Base Messages/Launch Object by Type Response Msg/Launch Object by Type Response Msg.lvclass"/>
+				<Item Name="Load Complete Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller Messages/Load Complete Msg/Load Complete Msg.lvclass"/>
 				<Item Name="Process Result Msg.lvclass" Type="LVClass" URL="../../Measure_core/Process Object Messages/Process Result Msg/Process Result Msg.lvclass"/>
 				<Item Name="Result Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller Messages/Result Response Msg/Result Response Msg.lvclass"/>
 				<Item Name="Set Frequency Msg.lvclass" Type="LVClass" URL="../Recorders/Lock-in Messages/Set Frequency Msg/Set Frequency Msg.lvclass"/>
@@ -26,24 +57,10 @@
 				<Item Name="Write Period Msg.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer Messages/Write Period Msg/Write Period Msg.lvclass"/>
 			</Item>
 			<Item Name="Test" Type="Folder"/>
-			<Item Name="Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/Acquired Result/Acquired Result.lvclass"/>
-			<Item Name="Application Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller/Application Controller.lvclass"/>
-			<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
-			<Item Name="da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
-			<Item Name="File Path Result.lvclass" Type="LVClass" URL="../../Measure_core/Results/File Path Result/File Path Result.lvclass"/>
-			<Item Name="Instrument Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Instrument Driver.lvclass"/>
-			<Item Name="Instrument Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Recorders/Instrument Recorder/Instrument Recorder.lvclass"/>
-			<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
-			<Item Name="Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot/Plot.lvclass"/>
-			<Item Name="Process Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller/Process Controller.lvclass"/>
-			<Item Name="Pulse Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Pulse Controller/Pulse Controller.lvclass"/>
-			<Item Name="Pulse Recorder.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder/Pulse Recorder.lvclass"/>
-			<Item Name="Simple VISA Reader Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Simple VISA Reader/Simple VISA Reader Driver.lvclass"/>
-			<Item Name="Temperature Controller Driver.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/Temperature Controller Driver/Temperature Controller Driver.lvclass"/>
-			<Item Name="Timer.lvclass" Type="LVClass" URL="../../Measure_core/Measurements/Timer/Timer.lvclass"/>
-			<Item Name="VISA Instrument.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/Instruments/VISA Instrument/VISA Instrument.lvclass"/>
-			<Item Name="XY Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY Plot/XY Plot.lvclass"/>
-			<Item Name="XY WFRM Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/XY WFRM Plot/XY WFRM Plot.lvclass"/>
+		</Item>
+		<Item Name="Measure App" Type="Folder">
+			<Item Name="Launch Measure App.vi" Type="VI" URL="../Launch Measure App.vi"/>
+			<Item Name="Measure App.lvclass" Type="LVClass" URL="../Measure App/Measure App.lvclass"/>
 		</Item>
 		<Item Name="Monitor-Pulse" Type="Folder">
 			<Item Name="Messages" Type="Folder">
@@ -160,10 +177,9 @@
 		</Item>
 		<Item Name="Defragment TDMS.vi" Type="VI" URL="../../NHMFL_Core/Applications/Utilities/Defragment TDMS.vi"/>
 		<Item Name="Launch Monitor-Pulse.vi" Type="VI" URL="../Launch Monitor-Pulse.vi"/>
-		<Item Name="Low Pass Filter.vi" Type="VI" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Low Pass Filter.vi"/>
-		<Item Name="Software Lock-in.lvclass" Type="LVClass" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Software Lock-in/Software Lock-in.lvclass"/>
+		<Item Name="Remove Sequence Element Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Sequence Controller Messages/Remove Sequence Element Msg/Remove Sequence Element Msg.lvclass"/>
+		<Item Name="Stop Object Msg.lvclass" Type="LVClass" URL="../../Measure_core/da Base Messages/Stop Object Msg/Stop Object Msg.lvclass"/>
 		<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
-		<Item Name="Test RP VISA.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Red Pitaya/RP Core/RP Communicator VISA/Test RP VISA.vi"/>
 		<Item Name="Trigger Pulse.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/DAQmx Digitizer/Trigger Pulse.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -538,6 +554,7 @@
 				<Item Name="GetSetShared.lvlib" Type="Library" URL="/&lt;vilib&gt;/express/express signal manip/GetorSetDDTAttributes/Shared VIs/GetSetShared.lvlib"/>
 				<Item Name="GoTo.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/GoTo.vi"/>
 				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="initFileContentsTree.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initFileContentsTree.vi"/>
 				<Item Name="InitFromConfiguration.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitFromConfiguration.vi"/>
 				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
@@ -549,6 +566,7 @@
 				<Item Name="LogicalSort.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LogicalSort.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
+				<Item Name="LVPoint32TypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPoint32TypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="NI_AAL_MathFunc.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_AAL_MathFunc.lvlib"/>
@@ -644,7 +662,6 @@
 			</Item>
 			<Item Name="Abbreviate TDMS Group Channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Abbreviate TDMS Group Channel.vi"/>
 			<Item Name="Acknowledge Post Process Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller Messages/Acknowledge Post Process Msg/Acknowledge Post Process Msg.lvclass"/>
-			<Item Name="Acquire Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Acquire Msg/Acquire Msg.lvclass"/>
 			<Item Name="Add file Msg.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot Messages/Add file Msg/Add file Msg.lvclass"/>
 			<Item Name="Add Menu Item.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Add Menu Item.vi"/>
 			<Item Name="AF Debug.lvlib" Type="Library" URL="/&lt;resource&gt;/AFDebug/AF Debug.lvlib"/>
@@ -659,6 +676,7 @@
 			<Item Name="Clear Errors from Array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Clear Errors from Array.vi"/>
 			<Item Name="Clear GPIB Timeout.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Clear GPIB Timeout.vi"/>
 			<Item Name="Clear Single Error.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Clear Single Error.vi"/>
+			<Item Name="Configuration Value Changed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Configuration Value Changed Msg/Configuration Value Changed Msg.lvclass"/>
 			<Item Name="Configure serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Configure serial bus.vi"/>
 			<Item Name="Convert TDMS channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File Format Converter/Convert TDMS channel.vi"/>
 			<Item Name="Count repeated primes.vi" Type="VI" URL="../Post-Processors/Lockin Processor/Count repeated primes.vi"/>
@@ -693,16 +711,20 @@
 			<Item Name="IdentifyEG_G_Lockin.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/EG_G/IdentifyEG_G_Lockin.vi"/>
 			<Item Name="IdentifyHP5385A.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/HP/HP5385/IdentifyHP5385A.vi"/>
 			<Item Name="Init Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller Messages/Init Response Msg/Init Response Msg.lvclass"/>
-			<Item Name="Initialize Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Initialize Msg/Initialize Msg.lvclass"/>
+			<Item Name="Initialize Work Msg.lvclass" Type="LVClass" URL="../../Measure_core/Worker Messages/Initialize Work Msg/Initialize Work Msg.lvclass"/>
+			<Item Name="Instrument Actor.lvclass" Type="LVClass" URL="../../Measure_core/Instrument Actor/Instrument Actor.lvclass"/>
 			<Item Name="Integrate channel from file.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/Integrate channel from file.vi"/>
 			<Item Name="Integrate channel.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Integrate channel.ctl"/>
 			<Item Name="IntegrateWaveForm.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Waveform/IntegrateWaveForm.vi"/>
 			<Item Name="is AH bridge.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/AH/is AH bridge.vi"/>
 			<Item Name="Is Control Present.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Is Valid File.vi"/>
+			<Item Name="Items Mouse Click Msg.lvclass" Type="LVClass" URL="../../Measure_core/Sequence Elements/Sequence Element Messages/Items Mouse Click Msg/Items Mouse Click Msg.lvclass"/>
+			<Item Name="Launch Object by Type Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller Messages/Launch Object by Type Msg/Launch Object by Type Msg.lvclass"/>
 			<Item Name="Letter to number.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Letter to number.vi"/>
 			<Item Name="Lock-in Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Lock-in Driver/Lock-in Configuration.ctl"/>
 			<Item Name="Lockin Proccess.vi" Type="VI" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Lockin Proccess.vi"/>
+			<Item Name="Low Pass Filter.vi" Type="VI" URL="../../NHMFL_Core/Libraries/SoftwareLockin/Low Pass Filter.vi"/>
 			<Item Name="LR 700 convert responce.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/LR 700 convert responce.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File LLB/MakeDataFileNames.vi"/>
@@ -738,9 +760,11 @@
 			<Item Name="Oxford set termination.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/Oxford set termination.vi"/>
 			<Item Name="Oxford visa write read.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Oxford/Oxford visa write read.vi"/>
 			<Item Name="Pad TAB.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Pad TAB.vi"/>
+			<Item Name="Perform Work Msg.lvclass" Type="LVClass" URL="../../Measure_core/Worker Messages/Perform Work Msg/Perform Work Msg.lvclass"/>
 			<Item Name="Plot Closed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller Messages/Plot Closed Msg/Plot Closed Msg.lvclass"/>
 			<Item Name="Plot Indexes.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Controls/Plot Indexes.ctl"/>
 			<Item Name="Plot types.ctl" Type="VI" URL="../../Measure_core/Plots/Plot types.ctl"/>
+			<Item Name="Point to Tree Item.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/GUI/Point to Tree Item.vi"/>
 			<Item Name="Populate and conf ethernet bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument/Populate and conf ethernet bus.vi"/>
 			<Item Name="Populate Recorder List.vi" Type="VI" URL="../Recorders/Populate Recorder List.vi"/>
 			<Item Name="Pulse Acquired Result.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller Messages/Pulse Acquired Result/Pulse Acquired Result.lvclass"/>
@@ -753,6 +777,7 @@
 			<Item Name="Read object configuration.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Read object configuration.vi"/>
 			<Item Name="Read TDMS Channel-Group Names.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/Read TDMS Channel-Group Names.vi"/>
 			<Item Name="Read Value.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/SRS/sr850/Read Value.vi"/>
+			<Item Name="Record.lvclass" Type="LVClass" URL="../../Measure_core/Sequence Elements/Record/Record.lvclass"/>
 			<Item Name="Reduce WFRM.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Reduce WFRM.vi"/>
 			<Item Name="Replace dt DBL.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Replace dt DBL.vi"/>
 			<Item Name="Replace dt I16.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Replace dt I16.vi"/>
@@ -786,13 +811,16 @@
 			<Item Name="Select multiplexer LR700.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/LR-700/Select multiplexer LR700.vi"/>
 			<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
 			<Item Name="Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Send Receive.vi"/>
+			<Item Name="Sequence Element Configuration.ctl" Type="VI" URL="../../Measure_core/Sequence Elements/Sequence Element/Sequence Element Configuration.ctl"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
 			<Item Name="Start Measurements Command Msg.lvclass" Type="LVClass" URL="../Monitor-Pulse Messages/Start Pulse Measurements Msg/Start Measurements Command Msg.lvclass"/>
 			<Item Name="Start Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller Messages/Start Measurements Msg/Start Measurements Msg.lvclass"/>
-			<Item Name="Stop Acquire Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Stop Acquire Msg/Stop Acquire Msg.lvclass"/>
 			<Item Name="Stop Measurements Msg.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller Messages/Stop Measurements Msg/Stop Measurements Msg.lvclass"/>
+			<Item Name="Stop Work Msg.lvclass" Type="LVClass" URL="../../Measure_core/Worker Messages/Stop Work Msg/Stop Work Msg.lvclass"/>
 			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 			<Item Name="Sweep Configuration.ctl" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Instrument Driver/Sweeper Driver/Sweep Configuration.ctl"/>
+			<Item Name="Sweep Sequence Configuration.ctl" Type="VI" URL="../../Measure_core/Sequence Elements/Sweep Sequence/Sweep Sequence Configuration.ctl"/>
+			<Item Name="Sweep.lvclass" Type="LVClass" URL="../../Measure_core/Sequence Elements/Sweep Sequence/Sweep.lvclass"/>
 			<Item Name="Synth Freq to Word.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/NHMFL Synthesizer/Synth Freq to Word.vi"/>
 			<Item Name="Synth Get Amplitude Clock.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/NHMFL Synthesizer/Synth Get Amplitude Clock.vi"/>
 			<Item Name="Synth Init DAQ Port.vi" Type="VI" URL="../../NHMFL_Core/Libraries/NI-DAQ/NHMFL Synthesizer/Synth Init DAQ Port.vi"/>
@@ -808,9 +836,11 @@
 			<Item Name="VISA  Send Receive.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/VISA  Send Receive.vi"/>
 			<Item Name="Wait for Result Msg.lvclass" Type="LVClass" URL="../../Measure_core/Pulse Recorders/Pulse Recorder Messages/Wait for Data Msg/Wait for Result Msg.lvclass"/>
 			<Item Name="Wait miliseconds.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Wait miliseconds.vi"/>
+			<Item Name="Worker.lvclass" Type="LVClass" URL="../../Measure_core/Worker/Worker.lvclass"/>
+			<Item Name="Workers by Function Response Msg.lvclass" Type="LVClass" URL="../../Measure_core/Sequence Elements/Sequence Element Messages/Workers by Function Response Msg/Workers by Function Response Msg.lvclass"/>
 			<Item Name="Write menu object array values.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Queued Listbox/Write menu object array values.vi"/>
 			<Item Name="Write object configuration.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/OO config/Write object configuration.vi"/>
-			<Item Name="Write tdms stream Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Write tdms stream Msg/Write tdms stream Msg.lvclass"/>
+			<Item Name="Write tdms stream Msg.lvclass" Type="LVClass" URL="../../Measure_core/da Base Messages/Write tdms stream Msg/Write tdms stream Msg.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
