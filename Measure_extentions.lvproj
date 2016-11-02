@@ -14,7 +14,7 @@
 		<Item Name="Dependencies" Type="Folder">
 			<Item Name="Actors" Type="Folder">
 				<Item Name="Application Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Application Controller/Application Controller.lvclass"/>
-				<Item Name="Da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
+				<Item Name="da Base.lvclass" Type="LVClass" URL="../../Measure_core/Da Base/Da Base.lvclass"/>
 				<Item Name="Monitor Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Monitor Controller/Monitor Controller.lvclass"/>
 				<Item Name="Plot.lvclass" Type="LVClass" URL="../../Measure_core/Plots/Plot/Plot.lvclass"/>
 				<Item Name="Process Controller.lvclass" Type="LVClass" URL="../../Measure_core/Controllers/Process Controller/Process Controller.lvclass"/>
@@ -678,7 +678,7 @@
 			<Item Name="Clear Errors from Array.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Clear Errors from Array.vi"/>
 			<Item Name="Clear GPIB Timeout.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/GPIB/Clear GPIB Timeout.vi"/>
 			<Item Name="Clear Single Error.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Utilities/Clear Single Error.vi"/>
-			<Item Name="Configuration Value Changed Msg.lvclass" Type="LVClass" URL="../../Measure_core/Da Base Messages/Configuration Value Changed Msg/Configuration Value Changed Msg.lvclass"/>
+			<Item Name="Configuration Value Changed Msg.lvclass" Type="LVClass" URL="../../Measure_core/da Base Messages/Configuration Value Changed Msg/Configuration Value Changed Msg.lvclass"/>
 			<Item Name="Configure serial bus.vi" Type="VI" URL="../../NHMFL_Core/Libraries/Instruments/Cryo-con/Configure serial bus.vi"/>
 			<Item Name="Convert TDMS channel.vi" Type="VI" URL="../../NHMFL_Core/Libraries/File/File Format Converter/Convert TDMS channel.vi"/>
 			<Item Name="Count repeated primes.vi" Type="VI" URL="../Post-Processors/Lockin Processor/Count repeated primes.vi"/>
