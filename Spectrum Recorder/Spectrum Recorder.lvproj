@@ -12,6 +12,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Fit" Type="Folder">
+			<Item Name="Fing Resonances.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Fing Resonances.vi"/>
 			<Item Name="Fit complex bg one.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Fit complex bg one.vi"/>
 			<Item Name="Fit phase one.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Fit phase one.vi"/>
 			<Item Name="Lorentzian complex model.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Test functions/Lorentzian complex model.vi"/>
@@ -43,7 +44,6 @@
 			</Item>
 			<Item Name="Actor Framework.lvlib" Type="Library" URL="/&lt;vilib&gt;/ActorFramework/Actor Framework.lvlib"/>
 			<Item Name="Edge Split Test.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Test/Edge Split Test.vi"/>
-			<Item Name="Fing Resonances.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Fing Resonances.vi"/>
 		</Item>
 		<Item Name="Bin to TDMS.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Bin to TDMS.vi"/>
 		<Item Name="Find Resonances.lvclass" Type="LVClass" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Find Resonances.lvclass"/>
@@ -161,7 +161,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="ScaleGetErr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ScaleGetErr.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
