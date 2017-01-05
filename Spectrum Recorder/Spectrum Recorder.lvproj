@@ -51,6 +51,7 @@
 		<Item Name="RP Instrument.lvclass" Type="LVClass" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Core/RP Instrument/RP Instrument.lvclass"/>
 		<Item Name="RP Transceiver.lvclass" Type="LVClass" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Core/RP Transceiver/RP Transceiver.lvclass"/>
 		<Item Name="RP trx test.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Core/RP Transceiver/RP trx test.vi"/>
+		<Item Name="Smooth Background.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Smooth Background.vi"/>
 		<Item Name="Spectrum Recorder App.lvclass" Type="LVClass" URL="../../Spectrum Recorder App/Spectrum Recorder App.lvclass"/>
 		<Item Name="Spectrum Recorder Configuration.ctl" Type="VI" URL="../Spectrum Recorder Configuration.ctl"/>
 		<Item Name="Spectrum Recorder.lvclass" Type="LVClass" URL="../Spectrum Recorder.lvclass"/>
