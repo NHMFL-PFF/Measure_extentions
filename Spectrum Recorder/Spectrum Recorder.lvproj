@@ -132,6 +132,7 @@
 				<Item Name="Format Message String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Format Message String.vi"/>
 				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
+				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
 				<Item Name="Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Final Time Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
@@ -162,6 +163,7 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="ScaleGetErr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ScaleGetErr.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -236,6 +238,7 @@
 			<Item Name="File_Group_Chan_Abbr.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File_Group_Chan_Abbr.ctl"/>
 			<Item Name="Frequency to phase word DBL.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Frequency to phase word DBL.vi"/>
 			<Item Name="Generate mounth year strings.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/Generate mounth year strings.vi"/>
+			<Item Name="Generate pulse.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Generate pulse.vi"/>
 			<Item Name="Generate step array.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Generate step array.vi"/>
 			<Item Name="GenerateUniqueFilename.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/GenerateUniqueFilename.vi"/>
 			<Item Name="Get file group chan waveform.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Get file group chan waveform.vi"/>
@@ -244,6 +247,8 @@
 			<Item Name="Get Section Name.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/OO config/Get Section Name.vi"/>
 			<Item Name="Get TDMS channel info.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Get TDMS channel info.vi"/>
 			<Item Name="Get TDMS channel with scaling.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Data Viewer/Get TDMS channel with scaling.vi"/>
+			<Item Name="I-V parameters.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/I-V parameters.ctl"/>
+			<Item Name="I-V to Waveform parameters.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/I-V to Waveform parameters.vi"/>
 			<Item Name="Increment mode.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Increment mode.ctl"/>
 			<Item Name="Is Control Present.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Is Control Present.vi"/>
 			<Item Name="Is Valid File.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Is Valid File.vi"/>
@@ -259,6 +264,7 @@
 			<Item Name="MakeDataFileNames.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/MakeDataFileNames.vi"/>
 			<Item Name="MakePath.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/MakePath.vi"/>
 			<Item Name="MaxMinDecimate.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Waveform/MaxMinDecimate.vi"/>
+			<Item Name="Meta Data to TDMS.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/OO config/Meta Data to TDMS.vi"/>
 			<Item Name="Mode.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Mode.ctl"/>
 			<Item Name="Module Types.ctl" Type="VI" URL="../../Monitor-Pulse/Module Types.ctl"/>
 			<Item Name="Number list to array.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Number list to array.vi"/>
@@ -281,10 +287,12 @@
 			<Item Name="Restore Configuration Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Restore Configuration Msg/Restore Configuration Msg.lvclass"/>
 			<Item Name="Result Reply Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Result Reply Msg/Result Reply Msg.lvclass"/>
 			<Item Name="Ring plots update.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Ring plots update.vi"/>
+			<Item Name="RP block write.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP block write.vi"/>
 			<Item Name="RP calculate subset.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP calculate subset.vi"/>
 			<Item Name="RP Command.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Command.ctl"/>
 			<Item Name="RP Communicator VISA.lvclass" Type="LVClass" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Core/RP Communicator VISA/RP Communicator VISA.lvclass"/>
 			<Item Name="RP Config Offsets.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Config Offsets.ctl"/>
+			<Item Name="RP IV pattern write.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP IV pattern write.vi"/>
 			<Item Name="RP Read RX FIFO Fast TCP.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Read RX FIFO Fast TCP.vi"/>
 			<Item Name="RP Read RX FIFO Fast VISA.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Read RX FIFO Fast VISA.vi"/>
 			<Item Name="RP Read RX FIFO Fast.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/RP Read RX FIFO Fast.vi"/>
@@ -311,14 +319,18 @@
 			<Item Name="Self-addressed Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Self-Addressed Msg/Self-addressed Msg.lvclass"/>
 			<Item Name="Sequence Element Configuration.ctl" Type="VI" URL="../../../Measure_core/Sequence Elements/Sequence Element/Sequence Element Configuration.ctl"/>
 			<Item Name="Set Plot Type Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Plots/XY WFRM Plot Messages/Set Plot Type Msg/Set Plot Type Msg.lvclass"/>
+			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
 			<Item Name="Start-up Configuration.ctl" Type="VI" URL="../../Monitor-Pulse/Start-up Configuration.ctl"/>
+			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
 			<Item Name="Sweep Sequence Configuration.ctl" Type="VI" URL="../../../Measure_core/Sequence Elements/Sweep Sequence/Sweep Sequence Configuration.ctl"/>
 			<Item Name="TDMS channel info.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Controls/TDMS channel info.ctl"/>
 			<Item Name="Time-Delayed Response Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Measurements/Timer Messages/Time-Delayed Response Msg/Time-Delayed Response Msg.lvclass"/>
 			<Item Name="TryAgain.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/TryAgain.vi"/>
+			<Item Name="Variant to Meta Data.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/OO config/Variant to Meta Data.vi"/>
 			<Item Name="Wait for Result Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Pulse Recorders/Pulse Recorder Messages/Wait for Data Msg/Wait for Result Msg.lvclass"/>
+			<Item Name="Waveform parameters.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Waveform parameters.ctl"/>
 			<Item Name="Workers by Function Response Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Sequence Elements/Sequence Element Messages/Workers by Function Response Msg/Workers by Function Response Msg.lvclass"/>
 			<Item Name="Write File history depth Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Plots/Plot Messages/Write Keep # of preceding files Msg/Write File history depth Msg.lvclass"/>
 			<Item Name="Write Files Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Plots/Plot Messages/Write Files Msg/Write Files Msg.lvclass"/>
@@ -341,7 +353,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">/C/github/builds/NI_AB_PROJECTNAME</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{8663B390-7B5D-4CE6-A80C-D9108A4A985B}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Spectrum Recorder.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/github/builds/NI_AB_PROJECTNAME/Spectrum Recorder.exe</Property>
