@@ -163,7 +163,6 @@
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
-				<Item Name="Report Error Msg.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/ActorFramework/Report Error Msg/Report Error Msg.lvclass"/>
 				<Item Name="ScaleGetErr.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ScaleGetErr.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -223,6 +222,7 @@
 			<Item Name="AvrgDecimate.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Waveform/AvrgDecimate.vi"/>
 			<Item Name="Broadcast Response Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Broadcast Response Msg/Broadcast Response Msg.lvclass"/>
 			<Item Name="BroadcastBroker.lvclass" Type="LVClass" URL="../../../Measure_core/BroadcastBroker/BroadcastBroker.lvclass"/>
+			<Item Name="Calculate Padding Buffer Size.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Calculate Padding Buffer Size.vi"/>
 			<Item Name="ChangeFileExtention.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/ChangeFileExtention.vi"/>
 			<Item Name="CheckFileExist.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/CheckFileExist.vi"/>
 			<Item Name="Clear Errors from Array.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Clear Errors from Array.vi"/>
@@ -232,6 +232,7 @@
 			<Item Name="Create folder if not exist.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/File LLB/Create folder if not exist.vi"/>
 			<Item Name="Create plots - ring selector.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Create plots - ring selector.vi"/>
 			<Item Name="Data reduction.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Controls/Data reduction.ctl"/>
+			<Item Name="Display Error Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Controllers/Application Controller Messages/Display Error Msg/Display Error Msg.lvclass"/>
 			<Item Name="Empty buffer.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Instruments/GPIB/Empty buffer.vi"/>
 			<Item Name="File formats.ctl" Type="VI" URL="../../../NHMFL_Core/Libraries/File/Controls/File formats.ctl"/>
 			<Item Name="File updated Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Plots/XY Plot Messages/File updated Msg/File updated Msg.lvclass"/>
@@ -321,6 +322,9 @@
 			<Item Name="Set Plot Type Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Plots/XY WFRM Plot Messages/Set Plot Type Msg/Set Plot Type Msg.lvclass"/>
 			<Item Name="Sine ramps pattern.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Sine ramps pattern.vi"/>
 			<Item Name="Skip white spaces.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Skip white spaces.vi"/>
+			<Item Name="Smooth Background CDBL.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Smooth Background CDBL.vi"/>
+			<Item Name="Smooth Background DBL.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Smooth Background DBL.vi"/>
+			<Item Name="Smooth Background WFRM DBL.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Utilities/Fit/Smooth Background WFRM DBL.vi"/>
 			<Item Name="Start-up Configuration.ctl" Type="VI" URL="../../Monitor-Pulse/Start-up Configuration.ctl"/>
 			<Item Name="Sub_2016_05_04_SinBias.vi" Type="VI" URL="../../../NHMFL_Core/Libraries/Red Pitaya/Waform generation/Sub_2016_05_04_SinBias.vi"/>
 			<Item Name="Subscribe Request Msg.lvclass" Type="LVClass" URL="../../../Measure_core/Template Module Messages/Subscribe Request Msg/Subscribe Request Msg.lvclass"/>
